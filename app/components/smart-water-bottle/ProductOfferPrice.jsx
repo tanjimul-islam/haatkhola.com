@@ -8,16 +8,15 @@ const ProductOfferPrice = () => {
   return (
     <div className="max-w-[1000px] mx-auto px-4 ">
       {/* Product Description */}
-      <p className="text-xl lg:text-2xl text-muted-foreground ">
-        সাধারণত আমরা ফ্লাক্স ব্যবহার করি গরম পানি রাখার জন্য। এই স্পেশাল
-        ফ্লাক্সটিতে আপনি যেমন গরম পানি ১২ ঘণ্টা পর্যন্ত গরম রাখতে পারবেন একইভাবে
-        ঠান্ডা পানি ও ১২ ঘণ্টা পর্যন্ত ঠান্ডা থাকবে।
+      <p className="text-xl lg:text-2xl text-muted-foreground text-justify	">
+        আমাদের স্মার্ট বোতলগুলি নিরাপদভাবে গ্রাহকদের হাতে পৌঁছানোর জন্য সতর্কতার
+        সাথে প্যাকেজ করা হয়।
       </p>
 
       {/* Price Area */}
       <div className="text-center price-area text-3xl text-muted-foreground font-bold mt-6">
         <div className="regular-price text-2xl lg:text-3xl text-gray-400 font-normal mb-4">
-          রেগুলার মূল্য: <del>1050 টাকা</del>
+          রেগুলার মূল্য: <del>৯৪৬ টাকা</del>
         </div>
         <div className="offer-price">
           শুধু আজকের জন্য অফার মূল্য:{" "}
@@ -38,6 +37,7 @@ const ProductOfferPrice = () => {
       {/* WhatsApp Order Option */}
       <p className="text-muted-foreground text-xl text-center">
         আপনি চাইলে আমাদের সাথে হোয়াটসঅ্যাপে কথা বলে অর্ডার করতে পারবেন।
+        <b> 01977 728 358</b>
       </p>
       <div className="order-button flex justify-center my-8">
         <Link

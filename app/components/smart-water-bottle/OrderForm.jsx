@@ -12,7 +12,7 @@ const OrderForm = () => {
   const [fullAddress, setFullAddress] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const productPrice = 699;
+  const productPrice = 599;
 
   const handleDeliveryChange = (event) => {
     const selectedArea = event.target.value;

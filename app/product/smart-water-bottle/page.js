@@ -1,3 +1,4 @@
+import Footer from "@/app/components/Footer";
 import OrderForm from "@/app/components/smart-water-bottle/OrderForm";
 import ProductHeader from "@/app/components/smart-water-bottle/ProductDetailsHeader";
 import ProductImages from "@/app/components/smart-water-bottle/ProductImages";
@@ -12,6 +13,7 @@ export default function ProductPage() {
       <ProductImages />
       <ProductOfferPrice />
       <OrderForm />
+      <Footer />
     </div>
   );
 }
