@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation"; // Import useRouter
 const OrderForm = () => {
   const router = useRouter(); // Initialize useRouter
   const [deliveryCharge, setDeliveryCharge] = useState(70);
-  const [selectedColor, setSelectedColor] = useState("black");
+  const [selectedColor, setSelectedColor] = useState("blue");
   const [quantity, setQuantity] = useState(1);
   const [name, setName] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
@@ -16,7 +16,7 @@ const OrderForm = () => {
 
   const handleDeliveryChange = (event) => {
     const selectedArea = event.target.value;
-    setDeliveryCharge(selectedArea === "inside_dhaka" ? 70 : 130);
+    setDeliveryCharge(selectedArea === "inside_dhaka" ? 70 : 100);
   };
 
   const handleColorChange = (event) => {
@@ -211,7 +211,7 @@ const OrderForm = () => {
           <div className="mb-4">
             <span className="font-bold text-[21px]">কালার সিলেক্ট করুন:</span>
             <div className="flex space-x-2 mt-2">
-              {/* <label className="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="color"
@@ -226,7 +226,7 @@ const OrderForm = () => {
                   }`}
                 ></span>
                 <span className="ml-2 text-[18px]">নীল</span>
-              </label> */}
+              </label>
               <label className="flex items-center">
                 <input
                   type="radio"
@@ -252,7 +252,7 @@ const OrderForm = () => {
               <img
                 alt={selectedColor}
                 className="w-16 h-16 object-cover mr-4"
-                src="/smart-water-bottle/3.jpg"
+                src="smart-water-bottle/1.jpg"
               />
               <div>
                 <h4 className="font-bold mb-1 text-[18px]">
