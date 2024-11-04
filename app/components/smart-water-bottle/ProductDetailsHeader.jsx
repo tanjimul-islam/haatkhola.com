@@ -7,7 +7,7 @@ const ProductHeader = () => {
     <div className="product-image-area">
       <div className="max-w-[1000px] mx-auto px-[15px]">
         {/* Product Title */}
-        <h1 className="font-extrabold text-primary lg:text-5xl md:text-4xl text-3xl leading-[120%] text-center lg:mb-8 lg:mt-8 mb-6">
+        <h1 className="font-extrabold text-primary lg:text-5xl md:text-4xl text-3xl leading-[120%] text-center lg:mb-8 lg:mt-8 mb-6 sm:my-4">
           স্মার্ট ওয়াটার বোতল
         </h1>
 
