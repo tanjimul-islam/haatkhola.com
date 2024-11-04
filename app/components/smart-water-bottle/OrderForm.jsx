@@ -256,7 +256,7 @@ const OrderForm = () => {
               />
               <div>
                 <h4 className="font-bold mb-1 text-[18px]">
-                  ৩ টি মগ সহ স্টিলের ভ্যাকুয়াম ফ্লাক্স
+                  স্মার্ট ওয়াটার বোতল
                 </h4>
                 <p className="text-[16px] text-gray-600">
                   Color:{" "}

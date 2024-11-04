@@ -14,9 +14,11 @@ const ProductHeader = () => {
         {/* Key Features */}
         <div className="key-features flex flex-wrap gap-2 text-center justify-center mb-6">
           <Feature text="✅ ১২ ঘন্টা পর্যন্ত ঠান্ডা অথবা গরম পানি রাখতে পারবেন" />
+          <Feature text="✅ তাপমাত্রা দেখতে পারবেন" />
           <Feature text="✅ হাই কোয়ালিটি Stainless Steel ম্যাটারিয়াল দিয়ে তৈরি" />
           <Feature text="✅ বাসা, অফিস কিংবা ট্যুরে স্বাচ্ছন্দের সাথে এটি ব্যবহার করতে পারবেন" />
           <Feature text="✅ এই স্মার্ট কাপটি তে রয়েছে ৫ লেয়ারের বিশেষ ইনসুলেশন প্রসেস" />
+          <Feature text="✅ ধারণ ক্ষমতা 500 মিলিলিটার" />
         </div>
 
         {/* Order Button */}
