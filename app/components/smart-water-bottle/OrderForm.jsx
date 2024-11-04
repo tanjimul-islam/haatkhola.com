@@ -85,9 +85,13 @@ const OrderForm = () => {
       <h2 className="text-3xl bg-[#231717] text-white p-6 text-center">
         অর্ডার সম্পন্ন করতে নিচের ফরমটি পূরন করে সাবমিট করুন
       </h2>
-      <form
+      {/* <form
         onSubmit={handleSubmit}
         className="px-6 flex flex-row justify-between py-12 shadow-md rounded-lg bg-[#F3F4F6]"
+      > */}
+      <form
+        onSubmit={handleSubmit}
+        className="px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-12 lg:py-12 flex flex-col sm:flex-row justify-between shadow-md rounded-lg bg-[#F3F4F6] space-y-4 sm:space-y-0 sm:space-x-4"
       >
         <div className="bg-white p-6 rounded-lg">
           <h3 className="lg:text-3xl text-2xl font-bold text-primary mb-6 text-[#f66425]">
