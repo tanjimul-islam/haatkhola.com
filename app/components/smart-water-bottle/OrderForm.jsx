@@ -16,7 +16,7 @@ const OrderForm = () => {
 
   const handleDeliveryChange = (event) => {
     const selectedArea = event.target.value;
-    setDeliveryCharge(selectedArea === "inside_dhaka" ? 70 : 130);
+    setDeliveryCharge(selectedArea === "inside_dhaka" ? 70 : 110);
   };
 
   const handleColorChange = (event) => {
