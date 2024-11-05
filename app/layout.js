@@ -15,10 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={notoSansBengali.className}>
-      <Head>
-        {/* Facebook Pixel */}
-        <Script id="facebook-pixel" strategy="afterInteractive">
-          {`
+      <Head>{/* Facebook Pixel */}</Head>
+      <Script id="facebook-pixel" strategy="afterInteractive">
+        {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -30,8 +29,7 @@ export default function RootLayout({ children }) {
             fbq('init', '1057799606043862');
             fbq('track', 'PageView');
           `}
-        </Script>
-      </Head>
+      </Script>
       <body className={`antialiased `}>
         {children}
         {/* NoScript for Facebook Pixel */}
