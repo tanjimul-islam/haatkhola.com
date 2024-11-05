@@ -30,7 +30,6 @@ export default function RootLayout({ children }) {
           `}
       </Script>
       <body className={`antialiased `}>
-        {children}
         {/* NoScript for Facebook Pixel */}
         {/* <noscript>
           <img
