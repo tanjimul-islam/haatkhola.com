@@ -15,7 +15,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={notoSansBengali.className}>
-      <Head>{/* Facebook Pixel */}</Head>
       <Script id="facebook-pixel" strategy="afterInteractive">
         {`
             !function(f,b,e,v,n,t,s)
