@@ -20,7 +20,7 @@ const ProductOfferPrice = () => {
         </div>
         <div className="offer-price">
           শুধু আজকের জন্য অফার মূল্য:{" "}
-          <span className="text-primary">599 টাকা</span>
+          <span className="text-primary">499 টাকা</span>
         </div>
       </div>
 

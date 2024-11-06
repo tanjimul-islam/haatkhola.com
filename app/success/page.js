@@ -10,7 +10,7 @@ const SuccessOrderClient = () => {
     <div className="flex flex-col items-center justify-center min-h-screen">
       <h1 className="text-3xl font-bold text-[#f66425]">অর্ডার সফল হয়েছে</h1>
       <p className="text-2xl my-4 font-bold">
-        আপনার অর্ডার সফলভাবে স্থাপন করা হয়েছে!!
+        আপনার অর্ডার সফলভাবে স্থাপন করা হয়েছে!
       </p>
       <p className="text-xl">অর্ডার নাম্বার: {orderNumber}</p>
       <button
