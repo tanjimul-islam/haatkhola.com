@@ -37,11 +37,11 @@ const ProductOfferPrice = () => {
       {/* WhatsApp Order Option */}
       <p className="text-muted-foreground text-xl text-center">
         আপনি চাইলে আমাদের সাথে হোয়াটসঅ্যাপে কথা বলে অর্ডার করতে পারবেন।
-        <b> 01977 728 358</b>
+        <b> 01677 554 542</b>
       </p>
       <div className="order-button flex justify-center my-8">
         <Link
-          href="#"
+          href="https://wa.me/+8801677554542"
           target="_blank"
           className="inline-flex items-center gap-2.5 justify-center whitespace-nowrap text-[24px] font-normal border-2 border-[#25D366] transition-all duration-300 bg-[#25D366] text-secondary-foreground rounded-full px-14 py-3 w-full sm:w-auto hover:bg-[#128C7E] hover:border-[#128C7E] hover:text-white text-white"
         >
